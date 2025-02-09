@@ -1,6 +1,6 @@
 Python Mini Projects
 
-Welcome to my Python projects repository! This repository contains several small projects that I have developed in Python. These are projects I'm building while still learning python inorder to improve my skills and get mastery.
+Welcome to my Python projects repository! This repository contains several small projects that I have developed in Python.
 
 Included Projects:
 
@@ -13,6 +13,8 @@ A word is randomly chosen from a list.
 The user enters a letter in each turn.
 
 The game continues until the word is completely guessed.
+
+The player has a limited number of lives, and a visual representation of the hangman is displayed.
 
 2. Rock-Paper-Scissors
 
@@ -44,6 +46,18 @@ The program randomly selects characters from predefined lists.
 
 The password is shuffled for added security before being displayed.
 
+5. Advanced Hangman Game
+
+An enhanced version of the classic Hangman game.
+
+A word is randomly selected from a predefined list.
+
+The player must guess the word letter by letter.
+
+The game provides a visual representation of the hangman at each incorrect guess.
+
+The player has a limited number of lives before losing the game.
+
 Installation and Execution
 
 Clone the repository:
@@ -66,7 +80,6 @@ Add more features to existing games.
 
 Author
 
-Developed by TCHOUAMO RYAN PARKER.
+Developed by TCHOUAMO TCHOUAMO RYAN PARKER.
 
 Thank you for visiting my repository! 🚀
-
