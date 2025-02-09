@@ -1,76 +1,8 @@
-stages = ['''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========
-''']
-
-logo = ''' 
- _                                             
-| |                                            
-| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
-| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
-| | | | (_| | | | | (_| | | | | | | (_| | | | |
-|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
-                    __/ |                      
-                   |___/    '''
-
-
-
 
 import random  
+import hangman_art
 
-print(logo)
+print(hangman_art.logo)
 
 world_list=["advark", "baboon", "camel", "clothes", "sexy"]   
 choosen_word = random.choice(world_list)
@@ -96,7 +28,7 @@ while not end_of_game and lives > 0:
             display[position]=char      
     if guess not in choosen_word:
         lives-=1
-        print(stages[lives])
+        print(hangman_art.stages[lives])
     
     print(display)
     print(f"Lives left is {lives}")
@@ -104,4 +36,4 @@ while not end_of_game and lives > 0:
     
     if "_" not in display:
         end_of_game=True
-        print("congrate for clearing the game")
+        print("congrate for clearing the game") 
