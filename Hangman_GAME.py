@@ -1,4 +1,3 @@
-
 import random  
 import hangman_art
 
