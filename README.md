@@ -1,6 +1,6 @@
 Python Mini Projects
 
-Welcome to my Python projects repository! This repository contains several small projects that I have developed in Python.
+Welcome to my Python projects repository! This repository contains several small projects that I have developed in Python. These are projects I'm building while still learning python inorder to improve my skills and get mastery.
 
 Included Projects:
 
