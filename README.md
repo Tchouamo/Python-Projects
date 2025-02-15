@@ -23,7 +23,7 @@ A program that encrypts and decrypts messages using a shift cipher.The user can 
 The message is shifted by a user-specified number of positions in the alphabet.The program outputs the encoded or decoded message
 The art is in art.py
 
-6.Secret Auction Program:
+6. Secret Auction Program:
 A program that organizes a secret auction:
 Users enter their name and their bid.The program asks if there are any other participants.When all bids are submitted, the program displays the highest bid.
 
